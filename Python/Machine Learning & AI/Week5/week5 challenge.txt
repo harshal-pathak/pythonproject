@@ -1,0 +1,10 @@
+1. Take a problem in hand, say we have 5000 electric motor to drive robots, out of which 999 are defective. 
+Let us assume that we have already build a Naïve Bayes machine learning model to classify the working and defective electric motors. 
+Wonderfully, our model identified, 1315, motors as defective, 
+out of which 800 are truly defective and 515 are identified as defective which are
+not defective. Now populate your confusion matrix correctly.
+
+2. After populating the confusion matrix, define a function that calculate precision, recall, specificity, 
+negative predicted value, true positive rate, false positive rate, average, accuracy, F1 score and Fβ score
+ (assume β = 0.3, try to change your β from 0 to 1 and report your result). Do not create multiple function file. 
+Submit a consolidate one function file.
